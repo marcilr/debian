@@ -8,5 +8,11 @@ Debian related links
 
 Links
 =====
+Devuan
+software freedom, your way
+Devuan GNU+Linux is a fork of Debian without systemd.
+Up to Beta2 release on January 11, 2017.
+https://devuan.org/
+
 Installing Debian GNU/Linux from a Unix/Linux System
 https://www.debian.org/releases/wheezy/amd64/apds03.html.en
