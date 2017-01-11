@@ -1,0 +1,15 @@
+debian.txt
+Created Wed Jan 11 10:45:24 AKST 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Debian
+The univeral operating system
+
+
+
+Links
+=====
+Debian
+The univeral operating system
+https://www.debian.org/
