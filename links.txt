@@ -11,6 +11,7 @@ Links
 Devuan
 software freedom, your way
 Devuan GNU+Linux is a fork of Debian without systemd.
+Devuan uses sysvinit, offers openrc, runit, sinit
 Up to Beta2 release on January 11, 2017.
 https://devuan.org/
 
