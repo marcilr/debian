@@ -1,0 +1,12 @@
+links.txt
+Created Wed Jan 11 10:45:32 AKST 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Debian related links
+
+
+Links
+=====
+Installing Debian GNU/Linux from a Unix/Linux System
+https://www.debian.org/releases/wheezy/amd64/apds03.html.en
