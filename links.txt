@@ -17,3 +17,7 @@ https://devuan.org/
 
 Installing Debian GNU/Linux from a Unix/Linux System
 https://www.debian.org/releases/wheezy/amd64/apds03.html.en
+
+Unix philosphy
+From GCI NMS John D. Millican March 16, 2017
+https://kukuruku.co/post/the-collapse-of-the-unix-philosophy/
