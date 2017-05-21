@@ -6,6 +6,9 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 Packages for debian
 
 
+From analysis of Debian 8.7 jessie
+
+
 Development
 ===========
 build-essential - Informational list of build-essential packages
@@ -24,12 +27,31 @@ build-essential - Informational list of build-essential packages
 devscripts - scripts to make the life of a Debian Package maintainer easier
 
 
+Documentation
+=============
+docbook - standard SGML representation system for technical documents
+docbook-xml - standard XML documentation system for software and systems
+
+texlive - TeX Live: A decent selection of the TeX Live packages
+
 
 Extra to install
 ================
 firmware-linux-free - Binary firmware for various drivers in the Linux kernel
 irqbalance - Daemon to balance interrupts for SMP systems
 
+
+Libraries
+=========
+
+
+
+Utilities
+=========
+gawk - GNU awk, a pattern scanning and processing language
+mawk - a pattern scanning and text processing language
+sed - The GNU sed stream editor
+xmlstarlet - command line XML toolkit
 
 
 Links
