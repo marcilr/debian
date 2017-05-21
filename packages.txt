@@ -45,6 +45,10 @@ Libraries
 =========
 
 
+Scanning
+========
+libsane - API library for scanners
+
 
 Utilities
 =========
