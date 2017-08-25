@@ -1,0 +1,79 @@
+#
+# Google Chrome
+# Created Mon Nov 14 13:47:32 AKST 2016
+# by Raymond E. Marcil <rmarcil@gci.com>
+#
+# To alleviate update error:
+#   W: GPG error: http://dl.google.com stable Release:
+#   The following signatures couldn't be verified because
+#   the public key is not available: NO_PUBKEY A040830F7FAC5991
+#   NO_PUBKEY 1397BC53640DB551
+#
+# Install google public key:
+#   wget -q -O - http://dl.google.com/linux/linux_signing_key.pub | \
+#   apt-key add -
+#
+# Install google chrome stable:
+#   aptitude install google-chrome-stable
+#
+# Example:
+#   Install google public key:
+#
+#   covellite:~# wget -q -O - \
+#   http://dl.google.com/linux/linux_signing_key.pub | apt-key add -
+#   OK
+#   covellite:~#
+#
+# Install gogole-chrome-stable-package:
+#   covellite:~# aptitude install google-chrome-stable
+#   The following NEW packages will be installed:
+#     google-chrome-stable 
+#   0 packages upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+#   Need to get 62.0 MB of archives. After unpacking 243 MB will be used.
+#   Get: 1 http://dl.google.com/linux/chrome/deb/ \
+#     stable/main google-chrome-stable amd64 60.0.3112.113-1 [62.0 MB]
+#   Fetched 62.0 MB in 5s (10.8 MB/s)                
+#   Selecting previously unselected package google-chrome-stable.
+#   (Reading database ... 288136 files and directories currently installed.)
+#   Preparing to unpack .../google-chrome-stable_60.0.3112.113-1_amd64.deb ...
+#   Unpacking google-chrome-stable (60.0.3112.113-1) ...
+#   Processing triggers for menu (2.1.47) ...
+#   Processing triggers for desktop-file-utils (0.22-1) ...
+#   Processing triggers for mime-support (3.58) ...
+#   Processing triggers for man-db (2.7.0.2-5) ...
+#   Setting up google-chrome-stable (60.0.3112.113-1) ...
+#   update-alternatives: using /usr/bin/google-chrome-stable \
+#     to provide /usr/bin/x-www-browser (x-www-browser) in auto mode
+#   update-alternatives: using /usr/bin/google-chrome-stable \
+#     to provide /usr/bin/gnome-www-browser (gnome-www-browser) \
+#     in auto mode
+#   update-alternatives: using /usr/bin/google-chrome-stable \
+#     to provide /usr/bin/google-chrome (google-chrome) in auto mode
+#   Processing triggers for menu (2.1.47) ...
+#                                       
+#   covellite:~#
+#
+# [arch=amd64
+#   This alleviates the following error:
+#
+#   covellite:~# aptitude update
+#   ...
+#   Hit http://ftp.us.debian.org jessie/non-free Translation-en
+#   Fetched 22.2 kB in 5s (3,858 B/s)
+#   W: Failed to fetch http://dl.google.com/linux/chrome/\
+#     deb/dists/stable/Release: \
+#   Unable to find expected entry 'main/binary-i386/Packages' \
+#     in Release file (Wrong sources.list entry or malformed file)
+#   E: Some index files failed to download. They have been ignored, \
+#     or old ones used instead.
+#   E: Couldn't rebuild package cache
+#   ...
+#   covellite:~#
+#
+#
+# Links
+# =====
+# Linux Software Repositories
+# https://www.google.com/linuxrepositories/
+#
+#deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
