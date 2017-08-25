@@ -13,6 +13,9 @@ debian.txt
   The univeral operating system
   https://www.debian.org/
 
+etc/
+  Configuration files
+
 links.txt
   Debian related links
 
