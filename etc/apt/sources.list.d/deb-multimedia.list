@@ -1,0 +1,37 @@
+# deb-multimedia.list
+# Created Tue Apr  7 17:26:49 AKDT 2015
+# by Raymond E. Marcil <rmarcil@gci.com>
+
+
+#
+# Source for dvdrip
+#
+# Installation of dvdrip-doc_0.98.11-dmo1_all.deb for Debian Wheezy
+# from the Multimedia Main repository.
+#
+# Install Howto
+# -------------
+# Add the following line to /etc/apt/sources.list:
+#   deb http://www.deb-multimedia.org wheezy main
+#
+# Update the package index:
+#   aptitude update
+#
+# Install GPG key of the repository:
+#   aptitude install deb-multimedia-keyring
+#
+# Install dvdrip package:
+#   aptitude install dvdrip
+#
+# Install dvdrip-doc deb package:
+#   aptitude install dvdrip-doc
+#
+# Debian Wheezy >>  Multimedia Main i38686 >>  dvdrip-doc_0.98.11-dmo1_all.deb
+# Has deb-multimedia.org instructions
+# http://pkgs.org/debian-wheezy/multimedia-main-i386/dvdrip-doc_0.98.11-dmo1_all.deb.html
+#
+# Mon Jun  1 08:49:46 AKDT 2015
+# =============================
+# Updated from Debian wheezy to jessie.
+#
+deb http://www.deb-multimedia.org jessie main non-free
