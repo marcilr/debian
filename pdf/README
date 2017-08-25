@@ -7,8 +7,8 @@ Filelist
 ========
 dpkg-cheat-sheet.pdf
   dpkg command cheat sheet for Debian Linux
-  dpkg is package manager for Debian Linux which is use to install/manage individual
-  packages. Here is quick cheat sheet you will find handy while using dpkg at shell
-  prompt.
+  dpkg is package manager for Debian Linux which is use to install/manage
+  individual packages.  Here is quick cheat sheet you will find handy while
+  using dpkg at shell prompt.
   https://www.cyberciti.biz/howto/question/linux/dpkg-cheat-sheet.php
 
