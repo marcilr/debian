@@ -5,6 +5,15 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+build-essential.txt
+  build-essential is a metapackage (a package that installs many other
+  packages, like g++ and gcc: the GNU C & C++ compilers).  It's required
+  if you want to compile anything from source, and if you want to work
+  with almost any programming language. HTH!
+  --squircle Jun 11 '10 at 20:03
+    http://superuser.com/users/27919/squircle
+    http://superuser.com/questions/151557/what-are-build-essential-build-dep
+
 packages.txt
   Packages for debian
 
