@@ -9,4 +9,7 @@ chrome.list
   My own google chrome stable package archive file with plenty of comments 
 
 deb-multimedia.list
+  Source of great media packages from:
+  http://www.deb-multimedia.org  
+
 google-chrome.list
