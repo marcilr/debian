@@ -7,3 +7,6 @@ Filelist
 ========
 packages.txt
   Packages for debian
+
+syntax/
+  Syntax for package management
