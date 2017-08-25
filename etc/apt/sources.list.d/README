@@ -5,4 +5,8 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+chrome.list 
+  My own google chrome stable package archive file with plenty of comments 
 
+deb-multimedia.list
+google-chrome.list
