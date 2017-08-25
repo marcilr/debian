@@ -13,3 +13,16 @@ deb-multimedia.list
   http://www.deb-multimedia.org  
 
 google-chrome.list
+  google chrome stable archive file
+
+  Not installed by:
+    google-chrome-stable_60.0.3112.113-1_amd64.deb
+
+  Not installed by:
+    wget -q -O - http://dl.google.com/linux/linux_signing_key.pub | \
+    apt-key add -
+
+  Had to manually create with:
+    echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ \
+    stable main" > /etc/apt/sources.list.d/google.list
+
