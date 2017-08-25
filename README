@@ -19,5 +19,5 @@ etc/
 links.txt
   Debian related links
 
-packages.txt
+packages/
   Packages for debian
