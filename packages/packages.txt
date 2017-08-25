@@ -12,17 +12,18 @@ From analysis of Debian 8.7 jessie
 Development
 ===========
 build-essential - Informational list of build-essential packages
-  Basically, build-essential package contains an informational list of package
-  which are considered essential for building Debian packages including gcc compiler,
-  make and other required tools.  This package also depends on the packages on that
-  list, to make it easy to have the build-essential packages installed.
+  Basically, build-essential package contains an informational list
+  of packages which are considered essential for building Debian
+  packages including gcc compiler, make and other required tools.
+  This package also depends on the packages on that list, to make
+  it easy to have the build-essential packages installed.
+
   1. libc6-dev - C standard library.
   2. gcc - C compiler.
   3. g++ - C++ compiler.
   4. make - GNU make utility to maintain groups of programs.
   5. dpkg-dev - Debian package development tools.
   --cyberciti.biz/
-
 
 devscripts - scripts to make the life of a Debian Package maintainer easier
 
@@ -61,6 +62,7 @@ xmlstarlet - command line XML toolkit
 Links
 =====
 Debian Linux Install GNU GCC Compiler and Development Environment
-February 26, 2009in Categories Debian / Ubuntu, Linux, Package Management, Programming
+February 26, 2009in Categories Debian / Ubuntu, Linux, Package Management,
+Programming
 last updated December 26, 2016
 https://www.cyberciti.biz/faq/debian-linux-install-gnu-gcc-compiler/
