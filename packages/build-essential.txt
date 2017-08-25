@@ -1,0 +1,30 @@
+build-essential.txt
+Created Wed Sep 21 09:29:42 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Build essential
+
+
+build-essential is a metapackage (a package that installs many other packages,
+  like g++ and gcc: the GNU C & C++ compilers).  It's required if you want to
+  compile anything from source, and if you want to work with almost any
+  programming language. HTH! 
+  --squircle Jun 11 '10 at 20:03
+    http://superuser.com/users/27919/squircle
+    http://superuser.com/questions/151557/what-are-build-essential-build-dep
+
+  build-essential - Informational list of build-essential packages
+
+  # aptitude install build-essential
+  build-essential dpkg-dev{a} g++{a} g++-4.9{a} libalgorithm-diff-perl{a} 
+  libalgorithm-diff-xs-perl{a} libalgorithm-merge-perl{a} libdpkg-perl{a} 
+  libfile-fcntllock-perl{a} libstdc++-4.9-dev{a} 
+  0 packages upgraded, 10 newly installed, 0 to remove and 0 not upgraded.
+  Need to get 25.2 MB of archives. After unpacking 50.4 MB will be used.
+  Do you want to continue? [Y/n/?] Y
+  ...
+  #
+
+Install linux headers for currently running kernel in debian using:
+  # aptitude install linux-headers-$(uname -r)
