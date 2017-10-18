@@ -8,6 +8,11 @@ Debian related links
 
 Links
 =====
+Debian Releases
+As of October 7, 2017 the latest stable 
+is Debian Stretch v9.2.
+https://www.debian.org/releases/
+
 Devuan
 software freedom, your way
 Devuan GNU+Linux is a fork of Debian without systemd.
