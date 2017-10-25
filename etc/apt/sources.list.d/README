@@ -26,3 +26,7 @@ google-chrome.list
     echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ \
     stable main" > /etc/apt/sources.list.d/google.list
 
+sublime-text.list
+  Sublime text editor
+  https://www.sublimetext.com/docs/3/linux_repositories.html#apt
+
