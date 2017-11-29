@@ -5,6 +5,10 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+configure.txt
+  dpkg --configure -a
+  Used to reconfigure dpkg if dpkg was interrupted.
+
 syntax.txt
   Syntax for dpkg
 
