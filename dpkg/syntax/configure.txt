@@ -1,0 +1,37 @@
+configure.txt
+Created Wed Nov 29 08:35:26 AKST 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+dpkg --configure -a
+
+Used to reconfigure dpkg if dpkg was interrupted.
+
+"E: dpkg was interrupted, you must manually run 'sudo dpkg --configure -a'
+to correct the problem."
+
+This error is actually telling you exactly what is wrong: dpkg was
+interrupted as a result the package was not configured correctly.
+
+Run the command it tells you to sudo dpkg --configure -a and it should
+be able to correct itself.
+
+If it doesn't try running sudo apt-get install -f(to fix broken packages)
+and then try running sudo dpkg --configure -a again.
+
+Just make sure you have internet access available so that you can download
+any dependencies.
+
+{edit} These instructions may not work if by upgrade you meant
+apt-get dist-upgrade if you were trying to do a distribution
+upgrade (i.e. 11.10->12.04) then you will need to edit your question
+to reflect that.
+--edited Jul 14 '12 at 1:52
+  answered Jul 14 '12 at 0:25 TrailRider
+  askubuntu.com/questions/163200/
+
+
+Links
+=====
+E: dpkg was interrupted… run 'sudo dpkg --configure -a'
+https://askubuntu.com/questions/163200/e-dpkg-was-interrupted-run-sudo-dpkg-configure-a
