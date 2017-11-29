@@ -13,6 +13,9 @@ debian.txt
   The univeral operating system
   https://www.debian.org/
 
+dpkg/
+  dpkg - package manager for Debian
+
 etc/
   Configuration files
 
