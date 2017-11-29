@@ -1,0 +1,6 @@
+syntax.txt
+Created Wed Nov 29 08:34:19 AKST 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Syntax for dpkg
