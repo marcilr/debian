@@ -24,3 +24,7 @@ links.txt
 
 packages/
   Packages for debian
+
+rc.d/
+  /etc/rcN.d symlinks
+
