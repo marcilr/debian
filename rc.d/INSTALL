@@ -1,0 +1,20 @@
+INSTALL
+Created Tue Jan  9 16:31:25 AKST 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Install /etc/rc.d symlinks
+
+
+Use update-rc.d to install rc.d symlinks:
+  update-rc.d - install and remove System-V style init script links
+
+update-rc.d  updates  the  System V style init script links /etc/rcrun‐
+level.d/NNname whose target  is  the  script  /etc/init.d/name.   These
+links  are  run  by  init when it changes runlevels; they are generally
+used to start and stop system services such as  daemons.   runlevel  is
+one  of the runlevels supported by init, namely, 0123456789S, and NN is
+the two-digit sequence number that determines  where  in  the  sequence
+init will run the scripts.
+--man, update-rc.d, 14 November 2005
+
