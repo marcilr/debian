@@ -1,0 +1,6 @@
+rc.d.txt
+Created Tue Jan  9 16:29:52 AKST 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+/etc/rc.d symlinks
