@@ -5,6 +5,26 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+httpd
+  Start/stop script written for use against httpd v2.4.23
+  under Debian stretch 9.3 amd64
+
+  Install with:
+  # cp httpd /etc/init.d
+  # update-rc.d httpd defaults
+
+  This will create:
+    rc0.d/K01httpd
+    rc1.d/K01httpd
+    rc2.d/S02httpd
+    rc3.d/S02httpd
+    rc4.d/S02httpd
+    rc5.d/S02httpd
+    rc6.d/K01httpd
+
+  Remove with:
+  # update-rc.d -f httpd remove
+
 making-scripts-run-at-boot-time-in-debian.pdf
   Making scripts run at boot time with Debian
   Posted by Steve on Mon 11 Oct 2004 at 13:01
@@ -16,4 +36,3 @@ making-scripts-run-at-boot-time-in-debian.txt
   Posted by Steve on Mon 11 Oct 2004 at 13:01
   Tags: boot, debian-specific commands, initscripts, scheduling
   https://debian-administration.org/article/28/Making_scripts_run_at_boot_time_with_Debian
-
