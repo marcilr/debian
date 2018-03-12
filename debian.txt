@@ -7,6 +7,16 @@ Debian
 The univeral operating system
 
 
+Mon Mar 12 08:39:39 AKDT 2018
+=============================
+Updated from Debian 9.3 amd 64 to 9.4 on covellite, malachite,
+and htpc today with:
+
+# aptitude update
+# aptitude upgrade
+
+No issues observed.
+
 
 Links
 =====
