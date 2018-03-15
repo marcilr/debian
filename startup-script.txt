@@ -1,0 +1,29 @@
+startup-script.txt
+Created Thu Mar 15 14:56:31 AKDT 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Startup script
+
+
+In a nutshell, if you want to create a startup script for a new service:
+
+o Write a shell script in /etc/init.d.  This script must accept one
+  argument which may be start, stop, force-reload, restart, or
+  (optional) reload or status.  The difference between reload and
+  restart is that restart is equivalent to stop followed by start
+  while reload reloads the configuration without stopping anything
+  (if the service supports it); force-reload does reload if available
+  and restart otherwise.  See the existing files and Making scripts
+  run at boot time with Debian for examples.
+
+o Run update-rc.d to create symbolic links to start and stop your
+  service. Most services run in runlevels 2, 3, 4 and 5.[1]
+
+
+
+Links
+=====
+[1] Gilles, answered Dec 27 '13 at 1:45
+    How do services in Debian work, and how can I manage them?
+    https://unix.stackexchange.com/questions/106656/how-do-services-in-debian-work-and-how-can-i-manage-them
