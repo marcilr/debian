@@ -28,3 +28,6 @@ packages/
 rc.d/
   /etc/rcN.d symlinks
 
+startup-script.txt
+  Startup script
+
