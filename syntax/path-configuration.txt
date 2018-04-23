@@ -1,0 +1,36 @@
+path-configuration.txt
+Created Mon Apr 23 10:48:59 AKDT 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Configure PATH for all users
+
+
+The first place where PATH is set is /etc/login.defs.  There's a
+setting for root and a setting for everyone else.
+
+Another place where you can define environment variables is
+/etc/environment.  These settings will apply to everyone (you
+can't write arbitrary shell code there).
+
+A third place where you can define environment variables is
+/etc/profile.  There you can write arbitrary shell code. If you
+want a user-specific setting, there is the corresponding per-user
+file ~www-data/.profile.  But this will only apply to console
+interactive logins; in particular it won't apply to cron jobs
+unless they explicitly source /etc/profile.
+
+If you only need that PATH setting in a user crontab, you can
+write it at the beginning of the crontab. Note that you need the
+full list (PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/zend/bin),
+you can't use a variable substitution (PATH=$PATH:/usr/local/zend/bin
+won't work there).
+--answered Aug 2 '10 at 19:11, Gilles
+  How set PATH for all users in Debian?
+  serverfault.com/
+
+
+Links
+=====
+How set PATH for all users in Debian?
+https://serverfault.com/questions/166383/how-set-path-for-all-users-in-debian?utm_medium=organic
