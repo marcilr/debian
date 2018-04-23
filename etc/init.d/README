@@ -11,6 +11,7 @@ httpd
 
   Install with:
   # cp httpd /etc/init.d
+  # chmod 755 /etc/init.d/httpd
   # update-rc.d httpd defaults
 
   This will create:
