@@ -31,3 +31,5 @@ rc.d/
 startup-script.txt
   Startup script
 
+syntax/
+  Syntax
