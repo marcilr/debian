@@ -1,0 +1,14 @@
+README
+Created Fri May  4 09:02:46 AKDT 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+fstab.txt
+  The fstab (/etc/fstab) (or file systems table) file is a
+  system configuration file on Debian systems. The fstab
+  file typically lists all available disks and disk
+  partitions, and indicates how they are to be initialized
+  https://wiki.debian.org/fstab
+
