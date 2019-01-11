@@ -1,0 +1,26 @@
+virtual-install.txt
+Created Fri Jan 11 07:28:15 AST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Debian 9, virtual machine installatonis not working
+to VirtualBox or VMware.
+
+Attempting to install from ISOs:
+  debian-9.2.1-amd64-xfce-CD-1.iso
+  debian-9.6.0-amd64-netinst.iso
+
+
+In each case installation ends with the error message:
+  debian 9
+  Select and install software
+  Installation step failed
+  An Installation step failed.  You can try to run the failing
+  item again from the menu, or skip it and choose something 
+  else.  The failing step is: Select and install software
+
+  click Continue
+
+"Select and install software" is critical to
+a working debian vm.
+  
