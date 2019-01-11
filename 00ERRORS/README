@@ -8,3 +8,7 @@ Filelist
 errors.txt
   Errors
 
+virtual-install.txt
+  Debian 9, virtual machine installatonis not working
+  to VirtualBox or VMware.
+
