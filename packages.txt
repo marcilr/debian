@@ -1,0 +1,18 @@
+packages.txt
+Created Fri Jan 11 10:56:02 AST 2019
+by Raymond E. Marcil <rmarcil@gmail.com>
+
+
+
+Packages to install
+
+
+git - fast, scalable, distributed revision control system
+
+
+
+Links
+=====
+How To Install Git on Debian 9
+PostedSeptember 7, 2018
+https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-9
