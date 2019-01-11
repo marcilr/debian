@@ -3,16 +3,42 @@ Created Fri Jan 11 07:28:15 AST 2019
 by Raymond E. Marcil <marcilr@gmail.com>
 
 
+
+Virtual Install
+
+
+
+
+Fri Jan 11 07:28:15 AST 2019
+============================
+Installation of debian-9.2.1-amd64-xfce-CD-1.iso to 
+virtual machine Debian 9.x 64-bit under VMware finally worked.
+
+Virtual machine details:
+  State:                  Powered off
+  Configuration file:     C:\Users\remarcil\Documents\Virtual Machines\Debian 9.x 64-bit (3)\Debian 9.x 64-bit (3).vmx
+  Hardware compativility: Workstation 15.x virtual machine
+  Primary IP address:     Network information is not available
+
+Virtual machine attributes:
+  Memory:             4GB
+  Processors:         1
+  Hard Disk (SCSI):   32 GB
+  CD/DVD (IDE):       Auto Detect
+  Network Adapter:    NAT
+  USB Controller:     Present
+  Sound Card:         Auto Detect
+  Printer:            Present
+  Display:            Auto detect
+
+
+
 Debian 9, virtual machine installatonis not working
 to VirtualBox or VMware.
 
 Attempting to install from ISOs:
   debian-9.2.1-amd64-xfce-CD-1.iso
   debian-9.6.0-amd64-netinst.iso
-
-Virtual machine attributes:
-   4GB ram
-  32GB disk
 
 In each case installation ends with the error message:
   debian 9
