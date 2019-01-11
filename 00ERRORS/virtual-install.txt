@@ -11,9 +11,13 @@ Virtual Install
 
 Fri Jan 11 07:28:15 AST 2019
 ============================
+o Installed chrome:
+
+
 o Need to increase size of debian desktop in VMware.
 This is accomplished via VMware Tools
 
+Looks better...
 
 o Installed VMware Tools to Debian 9.x 64-bit machine.
 
