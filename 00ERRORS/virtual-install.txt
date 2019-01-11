@@ -11,7 +11,9 @@ Virtual Install
 
 Fri Jan 11 07:28:15 AST 2019
 ============================
-Installation of debian-9.2.1-amd64-xfce-CD-1.iso to 
+o Need to increase size of debian desktop in VMware.
+
+o Installation of debian-9.2.1-amd64-xfce-CD-1.iso to 
 virtual machine Debian 9.x 64-bit under VMware finally worked.
 
 Virtual machine details:
@@ -31,9 +33,7 @@ Virtual machine attributes:
   Printer:            Present
   Display:            Auto detect
 
-
-
-Debian 9, virtual machine installatonis not working
+o Debian 9, virtual machine installatonis not working
 to VirtualBox or VMware.
 
 Attempting to install from ISOs:
@@ -53,3 +53,12 @@ In each case installation ends with the error message:
 "Select and install software" is critical to
 a working debian vm.
   
+
+Links
+=====
+Set Workstation Display Preferences
+1. Select Edit > Preferences and select Display.
+2. Configure the Autofit options.
+...
+https://pubs.vmware.com/workstation-9/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-09956D63-AB96-4610-874D-B80CDA9D5734.html
+
