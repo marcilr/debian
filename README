@@ -25,6 +25,9 @@ etc/
 links.txt
   Debian related links
 
+manifest   
+  Manifest for resync application
+
 packages/
   Packages for debian
 
