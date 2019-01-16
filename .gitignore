@@ -1,0 +1,8 @@
+#.gitignore
+# Created Wed Jan 16 07:54:15 AKST 2019
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+# Files for git to ignore
+#
+.gitignore
+xfce/
