@@ -1,0 +1,12 @@
+links.txt
+Created Fri Jan 25 07:00:22 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+fstab related links
+
+
+Links
+=====
+fstab
+https://wiki.debian.org/fstab
