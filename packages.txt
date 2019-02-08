@@ -6,9 +6,12 @@ by Raymond E. Marcil <rmarcil@gmail.com>
 Packages to install
 
 
-less - pager program similar to more, 2/6/2019
-libreoffice - office productivity suite (metapackage), 2/6/2019
-locate - maintain and query an index of a directory tree, 2/6/2019
+dos2unix - convert text file line endings between CRLF and LF
+  2/8/2019
+
+firefox-esr - Mozilla Firefox web browser - Extended Support Release (ESR)
+  2/7/2019
+
 
 gimp - GNU Image Manipulation Program, 2/6/2019
 
@@ -18,6 +21,10 @@ git-doc - fast, scalable, distributed revision control system (documentation)
 git-man - fast, scalable, distributed revision control system (manual pages)
 git-svn - fast, scalable, distributed revision control system (svn interoperability)
   2/6/2019
+
+less - pager program similar to more, 2/6/2019
+libreoffice - office productivity suite (metapackage), 2/6/2019
+locate - maintain and query an index of a directory tree, 2/6/2019
 
 python2.7 - Interactive high-level object-oriented language (version 2.7)
 python2.7-dev - Header files and a static library for Python (v2.7)
