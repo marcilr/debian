@@ -26,6 +26,9 @@ http://askubuntu.com/questions/170348/how-to-create-a-local-apt-repository
 Installing Debian GNU/Linux from a Unix/Linux System
 https://www.debian.org/releases/wheezy/amd64/apds03.html.en
 
+netinst - Network install from a minimal CD
+https://www.debian.org/CD/netinst/
+
 Unix philosphy
 From GCI NMS John D. Millican March 16, 2017
 https://kukuruku.co/post/the-collapse-of-the-unix-philosophy/
