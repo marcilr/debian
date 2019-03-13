@@ -1,0 +1,57 @@
+sudo.txt
+Created Wed Mar 13 08:07:37 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+sudo, sudoedit — execute a command as another user
+
+
+Enable 'sudo' for user account
+
+1. Become superuser:
+$ su root
+
+2. Install sudo:
+# aptitude install sudo
+# type sudo
+sudo is /usr/bin/sudo
+#
+
+Looks good.
+
+3. Add user account to the group sudo:
+# adduser remarcil sudo
+The user `remarcil' is already a member of `sudo'.
+#
+
+Looks like I did this already.
+
+4. Now, log out and then log in with the same user.
+
+5. Open a terminal and execute:
+$ sudo echo "Hello, world!"
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for remarcil: 
+Hello, world!
+$
+
+If all goes well you'll see on screen Hello, world!
+
+Looks good.
+
+--milq.github.io/
+
+
+
+Links
+=====
+Enable 'sudo' on an user account in Debian
+Manuel Ignacio Lopez Quintero
+http://milq.github.io/enable-sudo-user-account-debian/
