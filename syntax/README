@@ -8,6 +8,9 @@ Filelist
 links.txt
   Syntax related links
 
+ls.txt
+  ls - list directory contents
+
 path-configuration.txt
   Configure PATH for all users
 
