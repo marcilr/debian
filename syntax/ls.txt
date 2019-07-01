@@ -9,7 +9,7 @@ ls - list directory contents
 
 Listing with year
 =================
-Use --full-time argumnt.
+Use --full-time argument.
 
 Example:
 $ ls --full-time
