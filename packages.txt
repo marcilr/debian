@@ -32,6 +32,9 @@ python2.7-doc - Documentation for the high-level object-oriented language Python
 python2.7-examples - Examples for the Python language (v2.7)
   2/7/2019
 
+xfce4-terminal - Xfce terminal emulator
+  A fine terminal emulator
+
 
 Links
 =====
