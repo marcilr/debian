@@ -5,6 +5,9 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+aptitude.txt
+  Aptitude
+
 build-essential.txt
   build-essential is a metapackage (a package that installs many other
   packages, like g++ and gcc: the GNU C & C++ compilers).  It's required
