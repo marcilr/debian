@@ -7,6 +7,17 @@ Debian
 The univeral operating system
 
 
+Fri Mar 22 13:03:30 AKDT 2019
+=============================
+o On the DNR Debian 9.8 amd64 desktop there is a VBox_GAs_6.0.4
+iso disk image.  This was the virtualbox guest additions iso
+there by default on boot.  Uncertain where it actually is, 
+locate doesn't locate it.
+  right-click VBox_GAs_6.0.4 > Eject Volume
+
+That did the trick.  VBox_GAs_6.0.4 iso icon gone.
+
+
 Mon Mar 12 08:39:39 AKDT 2018
 =============================
 Updated from Debian 9.3 amd 64 to 9.4 on covellite, malachite,

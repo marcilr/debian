@@ -5,6 +5,9 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+00ERRORS
+  Errors
+
 00INSTALL/
   Installation of debian
 
@@ -19,8 +22,20 @@ dpkg/
 etc/
   Configuration files
 
+fstab/
+  The fstab (/etc/fstab) (or file systems table) file
+  is a system configuration file on Debian systems.
+  The fstab file typically lists all available disks
+  and disk partitions, and indicates how they are to
+  be initialized or otherwise integrated into the
+  overall system's file system.
+  --https://wiki.debian.org/fstab
+
 links.txt
   Debian related links
+
+manifest   
+  Manifest for resync application
 
 packages/
   Packages for debian

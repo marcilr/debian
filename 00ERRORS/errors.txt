@@ -1,0 +1,7 @@
+errors.txt
+Created Fri Jan 11 07:25:24 AST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Errors
+

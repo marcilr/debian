@@ -5,8 +5,17 @@ Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+links.txt
+  Syntax related links
+
+ls.txt
+  ls - list directory contents
+
 path-configuration.txt
   Configure PATH for all users
+
+sudo.txt
+  sudo, sudoedit — execute a command as another user
 
 syntax.txt
   Syntax

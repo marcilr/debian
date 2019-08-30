@@ -11,5 +11,13 @@ Links
 =====
 Installing Debian GNU/Linux from a Unix/Linux System
 Random Bits
-Looks like an installer script could be made from the details on this page.
+Looks like an installer script could be made from the details
+on this page.
 https://www.debian.org/releases/wheezy/amd64/apds03.html.en
+
+Network install from a minimal CD
+A network install or netinst CD is a single CD which enables
+you to install the entire operating system.  This single CD
+contains just the minimal amount of software to start the
+installation and fetch the remaining packages over the Internet.
+https://www.debian.org/CD/netinst/

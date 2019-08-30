@@ -1,0 +1,43 @@
+packages.txt
+Created Fri Jan 11 10:56:02 AST 2019
+by Raymond E. Marcil <rmarcil@gmail.com>
+
+
+Packages to install
+
+
+dos2unix - convert text file line endings between CRLF and LF
+  2/8/2019
+
+firefox-esr - Mozilla Firefox web browser - Extended Support Release (ESR)
+  2/7/2019
+
+
+gimp - GNU Image Manipulation Program, 2/6/2019
+
+git - fast, scalable, distributed revision control system
+git-all - fast, scalable, distributed revision control system (all subpackages)
+git-doc - fast, scalable, distributed revision control system (documentation)
+git-man - fast, scalable, distributed revision control system (manual pages)
+git-svn - fast, scalable, distributed revision control system (svn interoperability)
+  2/6/2019
+
+less - pager program similar to more, 2/6/2019
+libreoffice - office productivity suite (metapackage), 2/6/2019
+locate - maintain and query an index of a directory tree, 2/6/2019
+
+python2.7 - Interactive high-level object-oriented language (version 2.7)
+python2.7-dev - Header files and a static library for Python (v2.7)
+python2.7-doc - Documentation for the high-level object-oriented language Python (v2.7)
+python2.7-examples - Examples for the Python language (v2.7)
+  2/7/2019
+
+xfce4-terminal - Xfce terminal emulator
+  A fine terminal emulator
+
+
+Links
+=====
+How To Install Git on Debian 9
+PostedSeptember 7, 2018
+https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-9

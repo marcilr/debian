@@ -1,0 +1,15 @@
+links.txt
+Created Fri Jan 25 07:00:22 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+fstab related links
+
+
+Links
+=====
+fstab
+https://wiki.debian.org/fstab
+
+Proper fstab entry to mount a samba share on boot?
+https://askubuntu.com/questions/157128/proper-fstab-entry-to-mount-a-samba-share-on-boot
