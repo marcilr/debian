@@ -1,0 +1,18 @@
+aptitude.txt
+Created Thu Aug 29 20:51:04 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Aptitude
+
+
+Clean up aptitude[1]:
+
+# apt-get purge aptitude
+# apt-get install aptitude 
+
+
+Links
+=====
+[1] [SOLVED] Aptitude reporting 30000+ dependencies
+https://www.linuxquestions.org/questions/debian-26/aptitude-reporting-30000-dependencies-868921/
