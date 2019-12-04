@@ -24,6 +24,7 @@ git-svn - fast, scalable, distributed revision control system (svn interoperabil
 
 less - pager program similar to more, 2/6/2019
 libc-bin - GNU C Library: Binaries, has ldconfig, installed 4/12/2019
+  NOTE: found was already installed
 libreoffice - office productivity suite (metapackage), 2/6/2019
 locate - maintain and query an index of a directory tree, 2/6/2019
 
