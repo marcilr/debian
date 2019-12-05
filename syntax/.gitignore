@@ -1,0 +1,8 @@
+#.gitignore
+# Created Wed 04 Dec 2019 03:58:05 PM AKST
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+# Files for git to ignore
+#
+.gitignore
+sudo/
