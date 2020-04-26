@@ -28,6 +28,13 @@ libc-bin - GNU C Library: Binaries, has ldconfig, installed 4/12/2019
 libreoffice - office productivity suite (metapackage), 2/6/2019
 locate - maintain and query an index of a directory tree, 2/6/2019
 
+net-tools - NET-3 networking toolkit, 4/26/2020
+  Use net-tools netstat to check if Plex is running:
+  $ sudo netstat -lnpt | grep Plex
+  $ 
+
+  Not running yet.
+
 python2.7 - Interactive high-level object-oriented language (version 2.7)
 python2.7-dev - Header files and a static library for Python (v2.7)
 python2.7-doc - Documentation for the high-level object-oriented language Python (v2.7)
