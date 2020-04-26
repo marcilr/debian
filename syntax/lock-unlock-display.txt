@@ -1,0 +1,14 @@
+lock-unlock-display.txt
+Created Fri 06 Dec 2019 10:29:33 AM AKST
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+To lock Debian 10.2 buster: CTRL+ALT+L
+--askubuntu.com/questions/126782/keyboard-shortcut-for-lock-screen-not-working
+
+
+Links
+=====
+Keyboard shortcut for “Lock screen” not working
+ask ubuntu
+https://askubuntu.com/questions/126782/keyboard-shortcut-for-lock-screen-not-working
