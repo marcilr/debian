@@ -1,0 +1,36 @@
+adduser.txt
+Created Tue 12 May 2020 04:07:59 PM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+adduser, addgroup - add a user or group to the system
+
+
+Add 200 group to /etc/group:
+# grep 200 /etc/group
+akshena:x:200:
+
+Added akshena to all the groups marcilr was on:
+# grep akshena /etc/group
+cdrom:x:24:marcilr,akshena
+floppy:x:25:marcilr,akshena
+sudo:x:27:marcilr,akshena
+audio:x:29:pulse,marcilr,akshena
+dip:x:30:marcilr,akshena
+video:x:44:marcilr,akshena
+plugdev:x:46:marcilr,akshena
+users:x:100:marcilr,akshena
+netdev:x:109:marcilr,akshena
+bluetooth:x:112:marcilr,akshena
+scanner:x:116:saned,marcilr,akshena
+lpadmin:x:119:marcilr,akshena
+akshena:x:200:
+#
+
+Create a new user for Shena:
+# adduser akshena --home /home/akshena --uid 200 --gid 200 --shell /bin/bash
+
+This updated /etc/passwd with:
+akshena:x:200:200:Shena Marcil,,,:/home/akshena:/bin/bash
+
+
