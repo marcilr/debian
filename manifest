@@ -12,6 +12,6 @@
 # some repos like svn-to-git/ that have acutally dashes in the repo name.
 # Have not escaped these dashes in any way.   Might do this at some point.
 #
-ssh://git@github.com/marcilr/apt    apt
-ssh://git@github.com/marcilr/xfce   xfce
-
+ssh://git@github.com/marcilr/apt.git        apt
+ssh://git@github.com/marcilr/xfce.git       xfce
+ssh://git@github.com/marcilr/printing.git   printing
