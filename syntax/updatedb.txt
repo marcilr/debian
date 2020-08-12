@@ -1,0 +1,45 @@
+updatedb.txt
+Created Wed Aug 12 11:00:00 AKDT 2020
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+updatedb
+========
+updatedb [OPTION]...
+
+updatedb creates or updates a database used by locate(1).  If the database 
+already exists, its data is reused to avoid rereading directories that have 
+not changed.
+
+updatedb is usually run daily by cron(8) to update the default database.
+--updatedb - update a database for mlocate
+  https://manpages.debian.org/buster/mlocate/updatedb.8.en.html
+
+locate
+======
+locate [OPTION]... PATTERN...
+
+locate reads one or more databases prepared by updatedb(8) and writes 
+file names matching at least one of the PATTERNs to standard output, 
+one per line.
+
+If --regex is not specified, PATTERNs can contain globbing characters. 
+If any PATTERN contains no globbing characters, locate behaves as if 
+the pattern were *PATTERN*.
+
+By default, locate does not check whether files found in database still 
+exist (but it does require all parent directories to exist if the database 
+was built with --require-visibility no). locate can never report files 
+created after the most recent update of the relevant database.
+--locate - find files by name
+  https://manpages.debian.org/buster/mlocate/locate.1.en.html
+
+
+Links
+=====
+locate - find files by name
+https://manpages.debian.org/buster/mlocate/locate.1.en.html
+
+updatedb - update a database for mlocate
+https://manpages.debian.org/buster/mlocate/updatedb.8.en.html
+
