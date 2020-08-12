@@ -6,6 +6,21 @@ Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
 Screen resolution
 
 
+Get current screen resolution
+=============================
+Use xdpyinfo command to find out current screen resolution:
+$ xdpyinfo  | grep 'dimensions:'
+
+--How do I find out screen resolution of my Linux desktop?
+  last updated August 28, 2006 in Categories
+  nixCraft
+  Linux and Unix tutorials for new and seasoned sysadmin
+  https://www.cyberciti.biz/faq/how-do-i-find-out-screen-resolution-of-my-linux-desktop/
+
+
+
+Set screen resoluion
+====================
 This completely worked under Debian instance under virtualbox Tue Aug 11, 2020
 
 1. Use cvt to calculate the parameters needed by xrandr:
@@ -40,3 +55,10 @@ Links
 =====
 How to adjust the screen resolution in Debian?
 https://superuser.com/questions/716795/how-to-adjust-the-screen-resolution-in-debian
+
+How do I find out screen resolution of my Linux desktop?
+last updated August 28, 2006 in Categories
+nixCraft
+Linux and Unix tutorials for new and seasoned sysadmin
+$ xdpyinfo  | grep 'dimensions:'
+https://www.cyberciti.biz/faq/how-do-i-find-out-screen-resolution-of-my-linux-desktop/
