@@ -17,6 +17,10 @@ ls.txt
 path-configuration.txt
   Configure PATH for all users
 
+screen_resolution.txt
+  Screen resolution
+  This completely worked under Debian instance under virtualbox Tue Aug 11, 2020
+
 sudo.txt
   sudo, sudoedit — execute a command as another user
 
