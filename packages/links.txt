@@ -1,0 +1,14 @@
+links.txt
+Created Fri Aug 14 10:02 AKDT 2020
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package related links
+
+
+Links
+=====
+Fix packages with missing files
+ask unbuntu
+Some good apt syntax here
+https://askubuntu.com/questions/1117866/fix-packages-with-missing-files
