@@ -1,0 +1,13 @@
+screen_resolution.txt
+Created Fri Aug 14 10:05:30 AKDT 2020
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Screen resolution
+
+
+Links
+=====
+How to adjust the screen resolution in Debian?   <===
+Best 1,2,3,4 steps here
+https://superuser.com/questions/716795/how-to-adjust-the-screen-resolution-in-debian
