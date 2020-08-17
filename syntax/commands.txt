@@ -1,0 +1,18 @@
+commands.txt
+Created Mon 17 Aug 2020 03:52:59 PM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Commands
+
+
+free -h
+=======
+Show free memory:
+
+$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           15Gi        10Gi       1.2Gi       502Mi       3.6Gi       4.0Gi
+Swap:            0B          0B          0B
+$ 
+
