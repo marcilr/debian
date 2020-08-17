@@ -16,3 +16,21 @@ Mem:           15Gi        10Gi       1.2Gi       502Mi       3.6Gi       4.0Gi
 Swap:            0B          0B          0B
 $ 
 
+df -h
+=====
+Show free disk space:
+
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            7.8G     0  7.8G   0% /dev
+tmpfs           1.6G   18M  1.6G   2% /run
+/dev/sda2        92G   29G   58G  33% /
+tmpfs           7.8G   14M  7.8G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           7.8G     0  7.8G   0% /sys/fs/cgroup
+/dev/sda4        92G  609M   86G   1% /usr/local
+/dev/sda5        92G   85G  1.8G  98% /usr/local/VirtualBox_VMs
+/dev/sda1       511M   88M  424M  18% /boot/efi
+tmpfs           1.6G   20K  1.6G   1% /run/user/200
+tmpfs           1.6G   28K  1.6G   1% /run/user/1000
+$
