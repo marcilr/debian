@@ -11,6 +11,10 @@ Filelist
 00INSTALL/
   Installation of debian
 
+cups/
+  CUPS (Common UNIX Printing System)
+
+
 debian.txt
   Debian
   The univeral operating system
