@@ -34,3 +34,11 @@ tmpfs           7.8G     0  7.8G   0% /sys/fs/cgroup
 tmpfs           1.6G   20K  1.6G   1% /run/user/200
 tmpfs           1.6G   28K  1.6G   1% /run/user/1000
 $
+
+
+Drive is:
+  Crucial MX500 1TB 3D NAND SATA 
+  2.5 inch 7mm (with 9.5mm adapter) Internal SSD
+  CT1000MX500SSD1
+  price: $103.49 (Mon 17 Aug 2020)
+  https://www.crucial.com/ssd/mx500/ct1000mx500ssd1
