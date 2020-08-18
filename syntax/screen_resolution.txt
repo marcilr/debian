@@ -1,0 +1,64 @@
+screen_resolution.txt
+Created Wed Aug 12 11:00:00 AKDT 2020
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Screen resolution
+
+
+Get current screen resolution
+=============================
+Use xdpyinfo command to find out current screen resolution:
+$ xdpyinfo  | grep 'dimensions:'
+
+--How do I find out screen resolution of my Linux desktop?
+  last updated August 28, 2006 in Categories
+  nixCraft
+  Linux and Unix tutorials for new and seasoned sysadmin
+  https://www.cyberciti.biz/faq/how-do-i-find-out-screen-resolution-of-my-linux-desktop/
+
+
+
+Set screen resoluion
+====================
+This completely worked under Debian instance under virtualbox Tue Aug 11, 2020
+
+1. Use cvt to calculate the parameters needed by xrandr:
+cvt 1366 768
+
+example output:
+# 1368x768 59.88 Hz (CVT) hsync: 47.79 kHz; pclk: 85.25 MHz
+Modeline "1368x768_60.00"   85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync
+
+2. build the xrandr command with the output of cvt:
+xrandr --newmode "1366x768" 85.25  1368 1440 1576 1784  768 771 781 798 -Hsync +Vsync
+
+please note Hsync and Vsync capitalized. I needed to do that to get things working on some systems
+
+3. Add a newmode in xrandr:
+xrandr --addmode VGA1 "1366x768"
+
+4. Replace VGA1 as needed
+
+Enable the new resolution:
+xrandr --output VGA1 --mode "1366x768"
+
+
+--edited Sep 1 '16 at 10:47
+  Léo Léopold Hertz 준영
+
+--answered Feb 14 '14 at 11:26
+  Bruno9779
+
+
+Links
+=====
+How to adjust the screen resolution in Debian?
+https://superuser.com/questions/716795/how-to-adjust-the-screen-resolution-in-debian
+
+How do I find out screen resolution of my Linux desktop?
+last updated August 28, 2006 in Categories
+nixCraft
+Linux and Unix tutorials for new and seasoned sysadmin
+$ xdpyinfo  | grep 'dimensions:'
+https://www.cyberciti.biz/faq/how-do-i-find-out-screen-resolution-of-my-linux-desktop/
