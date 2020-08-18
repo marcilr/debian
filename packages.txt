@@ -6,12 +6,14 @@ by Raymond E. Marcil <rmarcil@gmail.com>
 Packages to install
 
 
+dnsutils - Clients provided with BIND
+  6/21/2020
+
 dos2unix - convert text file line endings between CRLF and LF
   2/8/2019
 
 firefox-esr - Mozilla Firefox web browser - Extended Support Release (ESR)
   2/7/2019
-
 
 gimp - GNU Image Manipulation Program, 2/6/2019
 
