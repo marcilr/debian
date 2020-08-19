@@ -39,6 +39,87 @@ net-tools - NET-3 networking toolkit, 4/26/2020
 
   Not running yet.
 
+pandoc - general markup converter
+pandoc-citeproc - Pandoc support for Citation Style Language - tools
+pandoc-citeproc-preamble - insert a preamble before pandoc-citeproc's bibliograp
+pandoc-data - general markup converter - data files
+pandoc-sidenote - footnotes-to-sidenotes converter for Pandoc
+  Used to save LaTeX in Word format
+
+
+Wed 19 Aug 2020 06:15:09 AM AKDT
+================================
+Installed pandoc packages:
+
+marcilr@malachite:~$ sudo apt-get install pandoc \
+pandoc-data \
+pandoc-citeproc \
+pandoc-citeproc-preamble \
+pandoc-sidenote 
+[sudo] password for marcilr:***
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.19.0-8-amd64 linux-headers-4.19.0-8-common linux-image-4.19.0-8-amd64
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libbibutils6 libghc-pandoc-citeproc-data liblua5.1-0
+Suggested packages:
+  texlive-xetex texlive-luatex context wkhtmltopdf librsvg2-bin groff nodejs php r-base-core node-katex
+The following NEW packages will be installed:
+  libbibutils6 libghc-pandoc-citeproc-data liblua5.1-0 pandoc pandoc-citeproc pandoc-citeproc-preamble pandoc-data pandoc-sidenote
+0 upgraded, 8 newly installed, 0 to remove and 66 not upgraded.
+Need to get 33.2 MB of archives.
+After this operation, 260 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://deb.debian.org/debian buster/main amd64 libbibutils6 amd64 6.2-1 [385 kB]
+Get:2 http://deb.debian.org/debian buster/main amd64 libghc-pandoc-citeproc-data all 0.14.3.1-4 [74.8 kB]
+Get:3 http://deb.debian.org/debian buster/main amd64 liblua5.1-0 amd64 5.1.5-8.1+b2 [111 kB]
+Get:4 http://deb.debian.org/debian buster/main amd64 pandoc-data all 2.2.1-3 [329 kB]
+Get:5 http://deb.debian.org/debian buster/main amd64 pandoc amd64 2.2.1-3+b2 [14.7 MB]
+Get:6 http://deb.debian.org/debian buster/main amd64 pandoc-citeproc amd64 0.14.3.1-4+b3 [12.1 MB]
+Get:7 http://deb.debian.org/debian buster/main amd64 pandoc-citeproc-preamble amd64 1.2.3+b1 [1,352 kB]                                                                           
+Get:8 http://deb.debian.org/debian buster/main amd64 pandoc-sidenote amd64 0.19.0.0-2+b2 [4,097 kB]  
+Fetched 33.2 MB in 29s (1,147 kB/s)                                                                                                                                               
+Selecting previously unselected package libbibutils6.
+(Reading database ... 378956 files and directories currently installed.)
+Preparing to unpack .../0-libbibutils6_6.2-1_amd64.deb ...
+Unpacking libbibutils6 (6.2-1) ...
+Selecting previously unselected package libghc-pandoc-citeproc-data.
+Preparing to unpack .../1-libghc-pandoc-citeproc-data_0.14.3.1-4_all.deb ...
+Unpacking libghc-pandoc-citeproc-data (0.14.3.1-4) ...
+Selecting previously unselected package liblua5.1-0:amd64.
+Preparing to unpack .../2-liblua5.1-0_5.1.5-8.1+b2_amd64.deb ...
+Unpacking liblua5.1-0:amd64 (5.1.5-8.1+b2) ...
+Selecting previously unselected package pandoc-data.
+Preparing to unpack .../3-pandoc-data_2.2.1-3_all.deb ...
+Unpacking pandoc-data (2.2.1-3) ...
+Selecting previously unselected package pandoc.
+Preparing to unpack .../4-pandoc_2.2.1-3+b2_amd64.deb ...
+Unpacking pandoc (2.2.1-3+b2) ...
+Selecting previously unselected package pandoc-citeproc.
+Preparing to unpack .../5-pandoc-citeproc_0.14.3.1-4+b3_amd64.deb ...
+Unpacking pandoc-citeproc (0.14.3.1-4+b3) ...
+Selecting previously unselected package pandoc-citeproc-preamble.
+Preparing to unpack .../6-pandoc-citeproc-preamble_1.2.3+b1_amd64.deb ...
+Unpacking pandoc-citeproc-preamble (1.2.3+b1) ...
+Selecting previously unselected package pandoc-sidenote.
+Preparing to unpack .../7-pandoc-sidenote_0.19.0.0-2+b2_amd64.deb ...
+Unpacking pandoc-sidenote (0.19.0.0-2+b2) ...
+Setting up libghc-pandoc-citeproc-data (0.14.3.1-4) ...
+Setting up libbibutils6 (6.2-1) ...
+Setting up pandoc-citeproc-preamble (1.2.3+b1) ...
+Setting up liblua5.1-0:amd64 (5.1.5-8.1+b2) ...
+Setting up pandoc-data (2.2.1-3) ...
+Setting up pandoc-citeproc (0.14.3.1-4+b3) ...
+Setting up pandoc-sidenote (0.19.0.0-2+b2) ...
+Setting up pandoc (2.2.1-3+b2) ...
+Processing triggers for man-db (2.8.5-2) ...
+Processing triggers for libc-bin (2.28-10) ...
+marcilr@malachite:~$
+
+
 python2.7 - Interactive high-level object-oriented language (version 2.7)
 python2.7-dev - Header files and a static library for Python (v2.7)
 python2.7-doc - Documentation for the high-level object-oriented language Python (v2.7)
