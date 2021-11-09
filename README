@@ -11,6 +11,9 @@ Filelist
 00INSTALL/
   Installation of debian
 
+acroread/
+  Adobe Acrobat Reader
+  
 cups/
   CUPS (Common UNIX Printing System)
 
