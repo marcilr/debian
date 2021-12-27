@@ -1,0 +1,17 @@
+mount-iso.txt
+Created Mon 27 Dec 2021 11:01:37 AM AKST
+Copyright (C) 2021 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+How to Mount ISO File on Linux
+
+Create the mount point directory on Linux: sudo mkdir /mnt/iso.
+Mount the ISO file on Linux:
+  sudo mount -o loop /path/to/my-iso-image.iso /mnt/iso.
+
+Verify it, run: mount OR df -H OR ls -l /mnt/iso/
+Unmount the ISO file using: sudo umount /mnt/iso/
+--How to mount an ISO image/file under Linux - nixCraft
+Author: Vivek Gite
+Last updated: November 12, 2019
+https://www.cyberciti.biz/tips/how-to-mount-iso-image-under-linux.html
