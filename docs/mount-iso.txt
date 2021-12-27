@@ -11,7 +11,25 @@ Mount the ISO file on Linux:
 
 Verify it, run: mount OR df -H OR ls -l /mnt/iso/
 Unmount the ISO file using: sudo umount /mnt/iso/
---How to mount an ISO image/file under Linux - nixCraft
+--cyberciti.biz/
+
+
+Example
+=======
+# mount -o loop /home/marcilr/Downloads/Win10_1909_English_x64.iso /mnt
+mount: /mnt: WARNING: device write-protected, mounted read-only.
+
+$ ls /mnt
+autorun.inf  boot  bootmgr  bootmgr.efi  efi  setup.exe  sources  support
+$
+
+The Win10_1909_English_x64.iso iso certainly looks like a windows 10 
+installer.
+
+
+Links
+=====
+How to mount an ISO image/file under Linux - nixCraft
 Author: Vivek Gite
 Last updated: November 12, 2019
 https://www.cyberciti.biz/tips/how-to-mount-iso-image-under-linux.html
