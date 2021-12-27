@@ -26,3 +26,9 @@ production-releases.txt
 
 screen_resolution.txt
   Screen resolution
+
+update-debian-10-to-11.txt
+  Upgrade Debian 10 Buster to Debian 11 Bullseye
+  I noticed in Debian 10 clicking Raymond Marcil > Lock Screen
+  does not work.
+
