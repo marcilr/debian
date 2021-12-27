@@ -1,0 +1,251 @@
+update-debian-10-to-11.txt
+Created Tue 09 Nov 2021 11:34:59 AM AKST
+Copyright (C) 2021 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Upgrade Debian 10 Buster to Debian 11 Bullseye
+I noticed in Debian 10 clicking Raymond Marcil > Lock Screen
+does not work.
+
+Trying update to see if it fixes it.
+
+
+Tue 09 Nov 2021 11:36:26 AM AKST
+================================
+Upgrade Debian 10 to Debian 11 Bullseye
+
+
+How to upgrade Debian 10 to Debian 11 Bullseye using the CLI
+Author: Vivek Gite Last updated: October 20, 2021 16 comments
+
+What’s new in Debian 11?
+  Apache 2.4.48
+  Bash 5.1.4
+  BIND DNS Server 9.16
+  Emacs 27.1
+  GNOME desktop 3.68
+  KDE desktop 5.20
+  Libreoffice 7.0
+  Lighttpd 1.4.59
+  Linux kernel 5.10.0-8
+  LXDE 11
+  LXQt 0.16
+  MariaDB 10.5
+  MATE 1.24
+  Nginx 1.18
+  OpenSSH 8.4p1
+  Perl 5.32.1
+  PHP 7.4
+  Postgresql 13
+  Python 3.9.2 (default but one can install Python 2.7.18 if needed)
+  Rustc 1.48
+  Vi IMproved (VIM) 8.2
+  Xfce 4.16.
+
+
+I have a new 2TB Crucial MX500 2.5 inch solid state
+to build up a new workstation.  This is likely the best
+means of backup and duplication.
+
+New system name?  Always did like the name covellite.
+    
+Need to cut a Debian 11 Bullseye to a usb key to install
+new covellite system.
+
+
+
+Upgrade Debian 10 to Debian 11 Bullseye
+=======================================
+The procedure is as follows:
+1. Backup the system.
+
+i. Inspect version of linux:
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Debian
+Description:	Debian GNU/Linux 10 (buster)
+Release:	10
+Codename:	buster
+
+
+ii. Plugged in the stray Samsung USB SSD drive that mount as:
+
+$ mount | grep T7
+/dev/sdb1 on /media/marcilr/T7 type fuseblk \
+(rw,nosuid,nodev,relatime,user_id=0,group_id=0,\
+default_permissions,allow_other,blksize=4096,uhelper=udisks2)
+
+$ df -h | grep T7
+Filesystem      Size  Used Avail Use% Mounted on
+...
+/dev/sdb1       466G  249G  218G  54% /media/marcilr/T7
+..
+
+iii.
+Inspect volumes:
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            7.8G     0  7.8G   0% /dev
+tmpfs           1.6G  9.3M  1.6G   1% /run
+/dev/sda2        92G   61G   27G  70% /
+tmpfs           7.8G   24M  7.8G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           7.8G     0  7.8G   0% /sys/fs/cgroup
+/dev/sda1       511M   86M  426M  17% /boot/efi
+/dev/sda4        92G   33G   54G  38% /usr/local
+/dev/sda5        92G   70G   17G  81% /usr/local/VirtualBox_VMs
+/dev/sda6       288G   50G  223G  19% /usr/local/VirtualBox_VMs2
+tmpfs           1.6G   28K  1.6G   1% /run/user/1000
+/dev/sdb1       466G  249G  218G  54% /media/marcilr/T7
+
+7.8 + 61 + 7.8 + 33 + 70 + 50 = 220.6G
+
+
+Looks like the Samsung ssd has 218G of 466G free.
+
+
+
+2. Update existing packages and reboot the Debian 10 system.
+
+3. Edit the file /etc/apt/sources.list using a text editor and 
+replace each instance of buster with bullseye.  Next find the 
+security line, replace keyword buster/updates with bullseye-security.
+
+4. Update the packages index on Debian Linux, run:
+    sudo apt update
+
+5. Prepare for the operating system upgrade, run:
+sudo apt upgrade
+
+6. Finally, update Debian 10 to Debian 11 bullseye by running:
+sudo apt full-upgrade
+
+7. Reboot the Linux system so that you can boot into Debian 11 Bullseye
+
+8. Verify that everything is working correctly.
+
+Let us see all commands step by step to upgrade Debian 10 Buster 
+to Debian 11 Bullseye safetly running in the cloud or bare metal 
+environment.
+Step 1. Backup your system
+
+Warning! Do not skip the backup step. The author and nixCraft are 
+not responsible for data loss and failed installation.
+
+It is crucial to back up all data and system configurations. 
+Cloud-based VMs can be quickly backup and restore using snapshots. 
+I use rsnapshot, which is the perfect solution for making backups 
+on the local or remote servers. Check os version in Linux:
+
+lsb_release -a
+
+Here is what I see:
+
+No LSB modules are available.
+Distributor ID:	Debian
+Description:	Debian GNU/Linux 10 (buster)
+Release:	10
+Codename:	buster
+
+Note down the Linux kernel version too:
+uname -mrs
+
+My Linux kernel version:
+
+Linux 4.19.0-18-amd64 x86_64
+
+Also note down the Debian version:
+cat /etc/debian_version
+10.11
+Step 2. Update ALL existing installed packages
+
+Before you upgrade your Debian version to 11, you must apply all security patches and pending upgrades to Debian 10 itself. Therefore, type the following apt command or apt-get command:
+sudo apt update
+sudo apt upgrade
+sudo apt full-upgrade
+sudo apt --purge autoremove
+
+OR
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get full-upgrade
+sudo apt-get --purge autoremove
+
+Reboot the Debian 10.x buster to apply the kernel and other updates:
+sudo systemctl reboot
+Step 3. Update /etc/apt/sources.list file
+
+Make sure you replace http://mirrors.linode.com/ APT URL mirror name with your actual mirror name.
+
+Patreon supporters only guides 🤓
+
+    No ads and tracking
+    In-depth guides for developers and sysadmins at Opensourceflare✨
+    Join my Patreon to support independent content creators and start reading latest guides:
+        How to set up Redis sentinel cluster on Ubuntu or Debian Linux
+        How To Set Up SSH Keys With YubiKey as two-factor authentication (U2F/FIDO2)
+        How to set up Mariadb Galera cluster on Ubuntu or Debian Linux
+        A podman tutorial for beginners – part I (run Linux containers without Docker and in daemonless mode)
+        How to protect Linux against rogue USB devices using USBGuard
+        If your domain is not sending email, set these DNS settings to avoid spoofing and phishing
+
+Join Patreon ➔
+
+Before starting the upgrade procedure, you must reconfigure APT’s source-list files. To view current settings using the cat command or more command
+more /etc/apt/sources.list
+
+Old Debian 10 APT config file:
+
+deb http://deb.debian.org/debian buster main
+deb-src http://deb.debian.org/debian buster main
+ 
+deb http://security.debian.org/debian-security buster/updates main
+deb-src http://security.debian.org/debian-security buster/updates main
+ 
+# buster-updates, previously known as 'volatile'
+deb http://deb.debian.org/debian buster-updates main
+deb-src http://deb.debian.org/debian buster-updates main
+
+Old Debian 10.x /etc/apt/sources.list file
+
+The keyword buster indicates that we are using an older version 10. Hence, we must change all the references in this file from Buster to Bullseye using a text editor such as vim:
+vi /etc/apt/sources.list
+
+I prefer to use sed tool, but first backup all config files using the cp command:
+sudo cp -v /etc/apt/sources.list /root/
+sudo cp -rv /etc/apt/sources.list.d/ /root/
+
+Edit the /etc/apt/sources.list file:
+sudo vim /etc/apt/sources.list
+
+Find the debian-security line for Buster:
+deb http://mirrors.linode.com/debian-security buster/updates main
+
+Replace with:
+deb http://mirrors.linode.com/debian-security bullseye-security main
+
+OR the following syntax is valid too:
+deb http://mirrors.linode.com/debian-security bullseye-security/updates main
+
+Then replace other buster line with bullseye in /etc/apt/sources.list and /etc/apt/sources.list.d/* directory. For example, find:
+deb http://mirrors.linode.com/debian buster main
+
+Replace with:
+deb http://mirrors.linode.com/debian bullseye main
+
+See updated file now:
+cat /etc/apt/sources.list
+
+--Upgrade Debian 10 to Debian 11 Bullseye
+https://www.cyberciti.biz/faq/update-upgrade-debian-10-to-debian-11-bullseye/
+
+
+Links
+=====
+How to upgrade Debian 10 to Debian 11 Bullseye using the CLI
+Author: Vivek Gite Last updated: October 20, 2021 16 comments
+See all Debian/Ubuntu Linux related FAQ
+https://www.cyberciti.biz/faq/update-upgrade-debian-10-to-debian-11-bullseye/
+
+Upgrade Debian 10 to Debian 11 Bullseye
+https://www.cyberciti.biz/faq/update-upgrade-debian-10-to-debian-11-bullseye/
