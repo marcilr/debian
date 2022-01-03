@@ -6,5 +6,6 @@
 #
 .gitignore
 apt/
+cli/
 cups/
 xfce/
