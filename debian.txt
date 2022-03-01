@@ -34,3 +34,6 @@ Links
 Debian
 The univeral operating system
 https://www.debian.org/
+
+Installing Debian via the Internet
+https://www.debian.org/distrib/netinst
