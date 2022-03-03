@@ -7,6 +7,17 @@ Debian
 The univeral operating system
 
 
+Thu 03 Mar 2022 11:28:40 AM AKST
+================================
+o Only use chrome web browser.  Removing firefox ESR with
+67 odd packages:
+
+
+$ dpkg -l | grep firefox-esr | wc -l
+67
+$ sudo aptitude remove firefox-esx
+
+
 Fri Mar 22 13:03:30 AKDT 2019
 =============================
 o On the DNR Debian 9.8 amd64 desktop there is a VBox_GAs_6.0.4
