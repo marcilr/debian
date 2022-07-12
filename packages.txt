@@ -47,6 +47,16 @@ pandoc-sidenote - footnotes-to-sidenotes converter for Pandoc
   Used to save LaTeX in Word format
 
 
+Mon 11 Jul 2022 10:15:56 PM AKDT
+================================
+Listed all rc packages with:
+$ sudo dpkg -l | grep "^rc"
+
+Removed the rc packages with sudo apt-get purge name to 
+remove packages one at a time:
+$ sudo apt-get purge wine-stable-i386:i386  wine-staging
+
+
 Wed 19 Aug 2020 06:15:09 AM AKDT
 ================================
 Installed pandoc packages (LaTeX to Word):
