@@ -49,10 +49,22 @@ pandoc-sidenote - footnotes-to-sidenotes converter for Pandoc
 
 Mon 11 Jul 2022 10:15:56 PM AKDT
 ================================
-Listed all rc packages with:
+o Downloaded and installed laster Master PDF Edit 5.8.70
+Master PDF Editor is the optimal solution for editing PDF files in Linux.
+It enables you to create, edit, view, encrypt, sign and print interactive PDF documents.
+
+Installed with:
+$ cd ~/Downloads
+$ sudo dpkg -i master-pdf-editor-5.8.70-qt5.x86_64.deb
+
+Downloaded at:
+https://code-industry.net/free-pdf-editor/#get
+click Download
+
+o Listed all rc packages with:
 $ sudo dpkg -l | grep "^rc"
 
-Removed the rc packages with sudo apt-get purge name to 
+o Removed the rc packages with sudo apt-get purge name to 
 remove packages one at a time:
 $ sudo apt-get purge wine-stable-i386:i386  wine-staging
 
