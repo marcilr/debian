@@ -56,6 +56,19 @@ It enables you to create, edit, view, encrypt, sign and print interactive PDF do
 Installed with:
 $ cd ~/Downloads
 $ sudo dpkg -i master-pdf-editor-5.8.70-qt5.x86_64.deb
+[sudo] password for marcilr: 
+Selecting previously unselected package master-pdf-editor-5.
+(Reading database ... 377760 files and directories currently installed.)
+Preparing to unpack master-pdf-editor-5.8.70-qt5.x86_64.deb ...
+Unpacking master-pdf-editor-5 (5.8.70-1) ...
+Setting up master-pdf-editor-5 (5.8.70-1) ...
+Processing triggers for desktop-file-utils (0.23-4) ...
+Processing triggers for mime-support (3.62) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+$
+
+Installation of master-pdf-editor-5.8.70-qt5.x86_64.deb looks good.
+
 
 Downloaded at:
 https://code-industry.net/free-pdf-editor/#get
