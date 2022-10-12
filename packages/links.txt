@@ -8,6 +8,11 @@ Package related links
 
 Links
 =====
+Debian Imaging Image viewer packages
+Official Debian packages with high relevance
+Nice page, feh is 2nd in list.
+https://blends.debian.org/imaging/tasks/imageviewer
+
 Fix packages with missing files
 ask unbuntu
 Some good apt syntax here
