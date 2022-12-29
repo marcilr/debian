@@ -47,6 +47,28 @@ pandoc-sidenote - footnotes-to-sidenotes converter for Pandoc
   Used to save LaTeX in Word format
 
 
+Fri 19 Aug 2022 09:56:07 AM AKDT
+================================
+o Fix wallpaper:
+
+$ /home/marcilr/bin/wallpaper
+
+Variables:
+  DEBUG=true
+  WALLPAPERDIR=~/.wallpaper
+
+Test execution:
+
+
+o Reinstalled google-chrome-stable
+Bit of paranoia reinstalled google-chrome-stable with:
+
+$ sudo aptitude remove  google-chrome-stable
+$ sudo aptitude install google-chrome-stable
+
+Paranoia a bit releaved.
+
+
 Mon 11 Jul 2022 10:15:56 PM AKDT
 ================================
 o Downloaded and installed laster Master PDF Edit 5.8.70
