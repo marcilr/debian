@@ -1152,8 +1152,25 @@ Looks good!
 7. Reboot the Linux system so that you can boot into Debian 11 Bullseye
 $ sudo shutdown -r now
 
+Thu 29 Dec 2022 01:30:05 AM AKST
+================================
+Upgrade complete!
+
 
 8. Verify that everything is working correctly.
+Debian 11 appeared to boot fine.
+
+Very new devian bullseye version:
+
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Debian
+Description:	Debian GNU/Linux 11 (bullseye)
+Release:	11
+Codename:	bullseye
+$
+
+Looks good!
 
 --Upgrade Debian 10 to Debian 11 Bullseye
   https://www.cyberciti.biz/faq/update-upgrade-debian-10-to-debian-11-bullseye/
