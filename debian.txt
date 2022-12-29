@@ -9,7 +9,18 @@ The univeral operating system
 
 Wed 28 Dec 2022 11:18:19 PM AKST
 ================================
-Updated Debian 10 Buster to Debian 11 Bulleye.
+o Check new linux kernal version:
+
+$ uname -mrs
+Linux 5.10.0-20-amd64 x86_64
+
+Check Debian version:
+11.6
+
+Update from Debian 10 Buster to Debian 11 Bullseye!
+
+
+o Updated Debian 10 Buster to Debian 11 Bullseye.
 
 0. Check current version:
 $ lsb_release -a
