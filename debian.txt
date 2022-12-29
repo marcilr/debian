@@ -9,6 +9,27 @@ The univeral operating system
 
 Wed 28 Dec 2022 11:18:19 PM AKST
 ================================
+o The upgrade to Debian 11 bullseye create a new
+'Warning: Unsafe Paste' pop-up when pasting to a terminal.
+
+Googled to disable:
+
+Open up the terminal, click on edit, click on preferences, and untick the box.
+That should do it. Dec 5, 2020
+--How do I disable 'Warning: Unsafe Paste' pop-up? - Ask Ubuntu
+  https://askubuntu.com/questions/1297733/how-do-i-disable-warning-unsafe-paste-pop-up#:~:text=Open%20up%20the%20terminal%2C%20click,That%20should%20do%20it.
+
+In xfce4-terminal v0.8.10 window:
+click Edit > Preferences...
+uncheck Show unsafe paste dialog (bottom right)
+click Close
+
+Tested with paste from Chrome browser to terminal.
+No more warning.
+
+Very good.
+
+
 o Check new linux kernal version:
 
 $ uname -mrs
@@ -17,7 +38,7 @@ Linux 5.10.0-20-amd64 x86_64
 Check Debian version:
 11.6
 
-Update from Debian 10 Buster to Debian 11 Bullseye!
+Update from Debian 10 buster to Debian 11 bullseye!
 
 
 o Updated Debian 10 Buster to Debian 11 Bullseye.
