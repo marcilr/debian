@@ -38,6 +38,9 @@ fstab/
   overall system's file system.
   --https://wiki.debian.org/fstab
 
+index.html
+  Base page for Debian git repository
+
 links.txt
   Debian related links
 
