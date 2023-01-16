@@ -53,6 +53,9 @@ manifest
 packages/
   Packages for debian
 
+printing/
+  Printing
+
 rc.d/
   /etc/rcN.d symlinks
 
