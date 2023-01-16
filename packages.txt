@@ -6,6 +6,12 @@ by Raymond E. Marcil <rmarcil@gmail.com>
 Packages to install
 
 
+alsa-utils
+  1/2/2021
+
+alsamixer - good controller
+  12/7/2020
+
 dnsutils - Clients provided with BIND
   6/21/2020
 
