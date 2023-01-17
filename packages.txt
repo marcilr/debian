@@ -52,6 +52,9 @@ pandoc-data - general markup converter - data files
 pandoc-sidenote - footnotes-to-sidenotes converter for Pandoc
   Used to save LaTeX in Word format
 
+snapd - Daemon and tooling that enable snap packages
+  Installed Mon 16 Jan 2023 05:45:31 PM AKST
+
 
 Fri 19 Aug 2022 09:56:07 AM AKDT
 ================================
