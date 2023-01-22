@@ -148,6 +148,20 @@ xfce4-panel - Launcher - Xfce Docs<br>
   </td>
 </tr>
 
+
+<!--- ==================== CHECK SYSLOG ======================= --->
+<!--- ==================== CHECK SYSLOG ======================= --->
+<tr>
+  <td style="font-family:courier;">
+    less /var/log/syslog
+  </td>
+  <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+  <td>Check syslog</td>
+  <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+
+
 <!--- ==================== CHECK DEBIAN VERSION =============== --->
 <!--- ==================== CHECK DEBIAN VERSION =============== --->
 <tr>
@@ -163,20 +177,31 @@ xfce4-panel - Launcher - Xfce Docs<br>
   </td>
 </tr>
 
-<!--- ==================== CHECK SYSLOG ======================= --->
-<!--- ==================== CHECK SYSLOG ======================= --->
+
+<!--- ======================= UPDATEDB ======================== --->
+<!--- ======================= UPDATEDB ======================== --->
 <tr>
   <td style="font-family:courier;">
-    less /var/log/syslog
+    updatedb
   </td>
   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-  <td>Check syslog</td>
+  <td>Update locate database</td>
   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-  <td>&nbsp;</td>
+  <td>
+    To alleviate Permission denied read<br>
+    error /run temporary directory updated<br>
+    PRUNEPATHS in /etc/updatedb.conf with:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp/run/user/1000/doc<br>
+    Mon 16 Jan 2023 07:05:35 PM AKST
+  </td>
 </tr>
+
+
 </table>
 </p>
 
+<!--- ==================== CHECK DEBIAN VERSION =============== --->
+<!--- ==================== CHECK DEBIAN VERSION =============== --->
 
 <!--- ============= Mon 16 Jan 2023 08:05:34 AM AKST =========== --->
 <!--- ============= Mon 16 Jan 2023 08:05:34 AM AKST =========== --->
