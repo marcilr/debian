@@ -10,7 +10,20 @@ To create the new ~/git/ockhounding-book git reposiotry I
 used rsync to copy the latex template to newly named
 ockhounding-book repository with:
 
+$ rsync -a src/ dest
 $ rsync -va ~/git/tex/template/ ~/git/rockhounding-book
+
+
+The rsync man page explains how this works:
+A trailing slash on the source [...] avoid[s] creating an additional
+directory level at the destination.  You can think of a trailing / on 
+a source as meaning "copy the contents of this directory" as opposed 
+to "copy the directory by name" [...]
+--answered Jan 8, 2015 at 8:02, Adrian
+How to rsync a directory to a new directory with different name?
+Asked 8 years ago, Modified 1 year, 8 months ago, Viewed 103k times
+Unix & Linux
+https://unix.stackexchange.com/questions/178078/how-to-rsync-a-directory-to-a-new-directory-with-different-name
 
 Simple but tricky!
 
