@@ -20,6 +20,9 @@ ls.txt
 path-configuration.txt
   Configure PATH for all users
 
+rsync.txt
+  rsync - a fast, versatile, remote (and local) file-copying tool
+
 screen_resolution.txt
   Screen resolution
   This completely worked under Debian instance under virtualbox Tue Aug 11, 2020
