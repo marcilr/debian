@@ -1,0 +1,30 @@
+rsync.txt
+Created Sat 21 Jan 2023 06:14:11 PM AKST
+Copyright (C) 2023 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+rsync - a fast, versatile, remote (and local) file-copying tool
+
+
+To create the new ~/git/ockhounding-book git reposiotry I
+used rsync to copy the latex template to newly named
+ockhounding-book repository with:
+
+$ rsync -va ~/git/tex/template/ ~/git/rockhounding-book
+
+Simple but tricky!
+
+The slash at the end of template/ means only copy the
+contents.
+
+The ~/git/rockhounding-book is a completely new directory:
+
+From:
+
+How to rsync a directory to a new directory with different name?
+Ask Question
+Asked 8 years ago
+Modified 1 year, 8 months ago
+Viewed 103k times
+https://unix.stackexchange.com/questions/178078/how-to-rsync-a-directory-to-a-new-directory-with-different-name
+
